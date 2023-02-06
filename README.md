@@ -11,7 +11,6 @@ make lint
 ---
 ## brain-even game demonstration:
 ### Is the number even?
-for start:
 ```
 brain-even
 ```
@@ -19,7 +18,6 @@ brain-even
 ---
 ## brain-calc game demonstration:
 ### Solve an arithmetic problem
-for start:
 ```
 brain-calc
 ```
@@ -27,16 +25,22 @@ brain-calc
 ---
 ## brain-gcd game demonstration:
 ### Find the greatest common divisor of two numbers
-for start:
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN.svg)](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN)
 ---
 ## brain-progression game demonstration:
-### FInsert missing number
-for start:
+### Find Insert missing number
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej.svg)](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej)
+---
+# brain-prime game demonstration:
+## Is the number prime
+```
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/557866.svg)](https://asciinema.org/a/557866)
+===
