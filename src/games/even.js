@@ -6,7 +6,7 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 const playIsEven = () => {
   const buildDataGame = () => {
-    const randomNum = generateRandomNumber(0, 21);
+    const randomNum = generateRandomNumber(1, 21);
     const rightAnswer = isEven(randomNum);
     return [randomNum, rightAnswer];
   };
