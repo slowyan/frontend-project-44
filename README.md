@@ -32,3 +32,11 @@ for start:
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN.svg)](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN)
+---
+## brain-progression game demonstration:
+### FInsert missing number
+for start:
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej.svg)](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej)
