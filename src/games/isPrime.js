@@ -3,9 +3,9 @@ import startGame from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isEven = (num) => {
+const isPrime = (num) => {
   for (let i = 2; i <= (num / 2); i += 1) {
-    if (num % 2 === 0) {
+    if (num % i === 0) {
       return 'no';
     }
   }
@@ -14,10 +14,10 @@ const isEven = (num) => {
 
 const playPrime = () => {
   const buildDataGame = () => {
-    const randomNum = generateRandomNumber(1, 199);
+    const randomNum = generateRandomNumber(2, 199);
 
     const question = randomNum;
-    const rightAnswer = isEven(randomNum);
+    const rightAnswer = isPrime(randomNum);
     return [question, rightAnswer];
   };
   startGame(description, buildDataGame);
