@@ -37,8 +37,8 @@ brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej.svg)](https://asciinema.org/a/U8ZBH4n7QrUjs1lpQw9XG9gej)
 ---
-# brain-prime game demonstration:
-## Is the number prime
+## brain-prime game demonstration:
+### Is the number prime
 ```
 brain-prime
 ```
