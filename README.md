@@ -24,4 +24,11 @@ for start:
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/q9Puaz17WXTXafFqsDKGI30Ov.svg)](https://asciinema.org/a/q9Puaz17WXTXafFqsDKGI30Ov)
-===
+---
+## brain-gcd game demonstration:
+### Find the greatest common divisor of two numbers
+for start:
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN.svg)](https://asciinema.org/a/zsMAur4cGp4vkWgX8s3d4TfBN)
