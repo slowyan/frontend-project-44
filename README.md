@@ -16,5 +16,12 @@ for start:
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/zMcW2x05ZCOpkPSOtVxmaJaE4.svg)](https://asciinema.org/a/zMcW2x05ZCOpkPSOtVxmaJaE4)
-
 ---
+## brain-calc game demonstration:
+### Solve an arithmetic problem
+for start:
+```
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/q9Puaz17WXTXafFqsDKGI30Ov.svg)](https://asciinema.org/a/q9Puaz17WXTXafFqsDKGI30Ov)
+===
