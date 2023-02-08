@@ -14,7 +14,7 @@ Node.js 13+
 
 ### Installation:
 ```
-git clone git@github.com:vanya-romashkevich/frontend-project-44.git
+git clone git@github.slowyan/frontend-project-44.git
 make install
 make lint
 ```
