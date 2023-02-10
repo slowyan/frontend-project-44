@@ -1,4 +1,4 @@
-import generateRandomNumber from '../getRandomNumber.js';
+import generateRandomNumber from '../utils.js';
 import startGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
@@ -13,7 +13,7 @@ const makeProgression = (firstNum, step, length) => {
 
 const playProgression = () => {
   const buildDataGame = () => {
-    const firstNumber = generateRandomNumber(1, 19);
+    const firstNumber = generateRandomNumber();
     const step = generateRandomNumber(1, 9);
     const maxLength = generateRandomNumber(5, 11);
 

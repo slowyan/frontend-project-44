@@ -1,13 +1,13 @@
-import generateRandomNumber from '../getRandomNumber.js';
+import generateRandomNumber, { trueOrFalse } from '../utils.js';
 import startGame from '../index.js';
 
-const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
+const isEven = (num) => num % 2 === 0;
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const playIsEven = () => {
   const buildDataGame = () => {
-    const randomNum = generateRandomNumber(1, 21);
-    const rightAnswer = isEven(randomNum);
+    const randomNum = generateRandomNumber();
+    const rightAnswer = trueOrFalse(isEven(randomNum));
     return [randomNum, rightAnswer];
   };
   startGame(description, buildDataGame);

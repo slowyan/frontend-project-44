@@ -1,15 +1,15 @@
-import generateRandomNumber from '../getRandomNumber.js';
+import generateRandomNumber, { trueOrFalse } from '../utils.js';
 import startGame from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
-  for (let i = 2; i <= (num / 2); i += 1) {
+  for (let i = 2; i * i <= num; i += 1) {
     if (num % i === 0) {
-      return 'no';
+      return false;
     }
   }
-  return 'yes';
+  return true;
 };
 
 const playPrime = () => {
@@ -17,7 +17,7 @@ const playPrime = () => {
     const randomNum = generateRandomNumber(2, 199);
 
     const question = randomNum;
-    const rightAnswer = isPrime(randomNum);
+    const rightAnswer = trueOrFalse(isPrime(randomNum));
     return [question, rightAnswer];
   };
   startGame(description, buildDataGame);
