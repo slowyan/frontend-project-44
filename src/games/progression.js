@@ -18,10 +18,10 @@ const playProgression = () => {
     const maxLength = generateRandomNumber(5, 11);
 
     const progression = makeProgression(firstNumber, step, maxLength);
-    const itemToHide = generateRandomNumber(0, progression.length - 1);
+    const indexToHide = generateRandomNumber(0, progression.length);
 
-    const rightAnswer = String(progression[itemToHide]);
-    progression[itemToHide] = '..';
+    const rightAnswer = String(progression[indexToHide]);
+    progression[indexToHide] = '..';
     const question = progression.join(' ');
 
     return [question, rightAnswer];
