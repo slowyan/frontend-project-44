@@ -18,15 +18,16 @@ const calculate = (operator, num1, num2) => {
 
 const description = 'What is the result of the expression?';
 
+const buildDataGame = () => {
+  const num1 = generateRandomNumber();
+  const num2 = generateRandomNumber();
+  const operator = operators[generateRandomNumber(0, operators.length)];
+  const rightAnswer = String(calculate(operator, num1, num2));
+  const question = `${num1} ${operator} ${num2}`;
+  return [question, rightAnswer];
+};
+
 const playCalc = () => {
-  const buildDataGame = () => {
-    const num1 = generateRandomNumber();
-    const num2 = generateRandomNumber();
-    const operator = operators[generateRandomNumber(0, operators.length)];
-    const rightAnswer = String(calculate(operator, num1, num2));
-    const question = `${num1} ${operator} ${num2}`;
-    return [question, rightAnswer];
-  };
   startGame(description, buildDataGame);
 };
 

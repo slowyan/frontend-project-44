@@ -15,14 +15,15 @@ const isPrime = (num) => {
   return true;
 };
 
-const playPrime = () => {
-  const buildDataGame = () => {
-    const randomNum = generateRandomNumber(2, 199);
+const buildDataGame = () => {
+  const randomNum = generateRandomNumber(2, 199);
 
-    const question = randomNum;
-    const rightAnswer = isPrime(randomNum) ? 'yes' : 'no';
-    return [question, rightAnswer];
-  };
+  const question = randomNum;
+  const rightAnswer = isPrime(randomNum) ? 'yes' : 'no';
+  return [question, rightAnswer];
+};
+
+const playPrime = () => {
   startGame(description, buildDataGame);
 };
 export default playPrime;

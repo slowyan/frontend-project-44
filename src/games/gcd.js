@@ -16,14 +16,15 @@ const findGcd = (n1, n2) => {
 
 const description = 'Find the greatest common divisor of given numbers.';
 
+const buildDataGame = () => {
+  const num1 = generateRandomNumber(0, 101);
+  const num2 = generateRandomNumber(0, 101);
+  const question = `${num1} ${num2}`;
+  const rightAnswer = String(findGcd(num1, num2));
+  return [question, rightAnswer];
+};
+
 const playFindGcd = () => {
-  const buildDataGame = () => {
-    const num1 = generateRandomNumber(0, 101);
-    const num2 = generateRandomNumber(0, 101);
-    const question = `${num1} ${num2}`;
-    const rightAnswer = String(findGcd(num1, num2));
-    return [question, rightAnswer];
-  };
   startGame(description, buildDataGame);
 };
 
